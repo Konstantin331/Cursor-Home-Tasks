@@ -78,11 +78,20 @@
   justify-content:space-between;
   align-items: center;
   height: 30px;
-  padding: 10px;
+  padding: 7px;
 }
 .line{
   display: flex;
   flex-direction:row;
+  justify-content: space-between;
+}
+.mar{
+  margin: 7px;
+}
+.line-img{
+  width: 17px;
+  height: 130px;
+  margin-right: 20px;
 }
 .head2{
   background-image: linear-gradient(to bottom, rgb(131,151,185), rgb(90,112,137));
@@ -113,27 +122,11 @@
   line-height: 30px;
   margin-top: 6px;
   color: white;
-  flex-grow: 1;
-
+  margin-right: 20px;
 }
-.sched{
-  justify-content: space-between;
-}
-.grow{
- flex-grow: 3;
-}
-.margin{
-  margin: 10px;
-}
-.bli{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 5px;
-}
-.blin{
-  height: 100px;
-
+.rendez{
+  flex-grow: 4;
+  color: rgba(240, 254, 254, 0.5);
 }
 .border-top{
   border-top: 2px rgb(82,108,136) solid;
